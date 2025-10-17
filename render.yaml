@@ -1,6 +1,0 @@
-services:
-  - type: web
-    name: car-sales-dashboard
-    env: python
-    buildCommand: "pip install -r requirements.txt"
-    startCommand: "streamlit run app_clean.py --server.enableCORS false --server.port=$PORT"
